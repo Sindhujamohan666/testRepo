@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ATB13x Form</title>
+</head>
+<body>
+<form action="Registration_page.php" >
+<div class="container">
+<h1>Automation Testing Form</h1>
+<h2>SDET-ATB13x Batch</h2>
+<p>Please fill the form</p>
+ <label for="firstname">First Name:</label>
+  <input type="text" id="firstname" name="firstname" >
+  <br>
+   <label for="firstname">Last Name:</label>
+  <input type="text" id="lastname" name="lastname" >
+  <br>
+   <label for="firstname">Date of Birth:</label>
+   <input type="date" id="dob" name="dob">
+  <br>
+  <label for="gender">Gender:</label><br>
+  <input type="radio" id="male" name="male" value="Male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="male" name="male" value="Male">
+  <label for="male">Female</label><br>
+   <label for="country">Country:</label><br>
+   <select id="country" name="country">
+    <option value="">-- Select Country --</option>
+    <option value="india">India</option>
+    <option value="usa">United States</option>
+    <option value="uk">United Kingdom</option>
+    <option value="canada">Canada</option>
+    <option value="australia">Australia</option>
+  </select><br>
+  
+  <input type="submit" value="Submit" style="margin-top: 20px;">
+  
+</div>
+<div class="container signin">
+    <p>Already have an account? <a href="https://courses.thetestingacademy.com/">Sign in</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
+
+
